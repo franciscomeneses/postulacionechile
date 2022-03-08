@@ -215,7 +215,6 @@ class: inverse, middle, center, slideInRight
 
  - ¿Fueron capaces los pEChs de amortiguar el aumento de la brecha educativa? 
  
---
  
 * Evaluando las características pEChs
 
@@ -225,8 +224,6 @@ class: inverse, middle, center, slideInRight
       + Puntaje postulación ECh
       + Tiempo de especialización en ECh
       + Profesión
-      
---
 
 * Evaluando el contexto escolar 
 
