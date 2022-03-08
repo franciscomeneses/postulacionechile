@@ -191,7 +191,31 @@ class: inverse, middle, center, slideInRight
 
 * Contexto de pandemia
 
+> ¿Fueron capaces los pEChs de amortiguar el aumento de la brecha educativa? 
+
+--
+ 
+* Evaluando las características de los pEChs
+
+> ¿Qué cualidades de los pEChs están asociadas a mejores resultados de los estudiantes? 
+
+--
+
+* Evaluando el contexto escolar 
+
+> ¿Existe alguna cualidad de las escuelas que dificulte el desarrollo de la política? 
+  
+    
+      
+      
+
+???
+
+* Contexto de pandemia
+
  - ¿Fueron capaces los pEChs de amortiguar el aumento de la brecha educativa? 
+ 
+--
  
 * Evaluando las características pEChs
 
@@ -201,20 +225,15 @@ class: inverse, middle, center, slideInRight
       + Puntaje postulación ECh
       + Tiempo de especialización en ECh
       + Profesión
+      
+--
 
 * Evaluando el contexto escolar 
 
   - ¿Existe alguna cualidad de las escuelas que dificulte el desarrollo de la política? 
   
       + Bajo nivel de liderazgo en red en la escuela
-      + Relación del profesor pEChs con los estudiantes
-      
-      
-      
-
-???
-
-
+      + Relación del profesor pEChs con los estudiante
 
 
 
