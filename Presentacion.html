@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Postulación eCh</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="xaringan_custom/xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="xaringan_custom/progress-bar.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: inverse, bottom, right
+
+
+
+
+
+
+
+
+&lt;!---
+About macros.js: permite escalar las imágenes como [:scale 50%](path to image), hay si que grabar ese archivo js en el directorio.
+.pull-left[&lt;images/Conocimiento cívico.png&gt;] 
+.pull-right[&lt;images/Conocimiento cívico_graf.png&gt;]
+
+---&gt;
+
+# __¿Cómo afectan los docentes eCh sobre los puntajes de los estudiantes de escuelas de bajo rendimiento?__
+## * Síntesis, evaluación metodológica y proyecciones teóricas*
+&lt;br&gt;
+&lt;hr&gt;
+# Revisión de artículo para proceso de postulación
+
+### Francisco Javier Meneses Rivas, Postulación al cargo de 
+### *Coordinador de Gestión e Investigación en Enseña Chile*
+
+&lt;br&gt;
+
+
+
+---
+
+layout: true
+class: animated, fadeIn
+
+---
+class: inverse, middle, center, slideInRight
+
+#  Problema social, programa social, y la evaluación del programa
+---
+## La desigualdad educativa como problema
+
+.center[![:scale 60%](images/ensenachiledesafios.png)]
+
+## La colaboración como solución
+
+.center[![:scale 80%](images/solucionensenachile.png)]
+???
+
+## Contexto
+
+* Según Cristian Cox [(2012)](https://www.redalyc.org/articulo.oa?id=297325499002), las políticas públicas de la concertación han logrado aumentar la cobertura y la calidad, pero se ha mantenido y reforzado la inequidad en educación. Existe contundente evidencia sobre la desigualdad del sistema educativo, así como de las consecuencias de esta desigualdad. 
+
+* Frente a esta situación Enseña Chile tiene como objetivo "QUE UN DÍA TODOS LOS NIÑOS EN CHILE RECIBAN EDUCACIÓN DE CALIDAD."
+
+
+---
+
+### ¿Cuál es el efecto del programa de liderazgo educativo? (Muñoz, 2021)
+
+&gt; __Objetivo:__ Comprender la mejora en el rendimiento de estudiantes de colegios con bajos resultados producida por la presencia de profesores de EnseñaChile
+
+&gt; __Metodología:__ Se realizan dos regresiones a distintos niveles para comprender el efecto de la presencia de pEChs en los requisitos para la selección universitaria. 
+--
+
+### Resultados
+
+.center[![:scale 80%](images/resultadosgraficos.png)]
+
+
+???
+
+
+
+## resumen
+
+* El objetivo del texto es comprobar empíricamente el efecto positivo de los profesores eCh en los estudiantes de establecimientos de bajo rendimiento.  
+
+* Para ello se trabajó con datos del DEMRE y de eCh, con el objetivo de generar información sobre la mejora de los estudiantes 
+
+para evaluar diferencias sobre diferencias, en un estudio cuasiexperimental de experimento natural, tanto a nivel de los estudiantes dentro de una escuela, como a nivel de las escuelas. 
+
+* Los resultados indican que la participación de los pEChs genera un efecto positivo, significativo y de moderada intensidad sobre indicadores de selección universitaria como las pruebas PSU, el ranking, el NEM y la selección de BEA. 
+
+---
+class: inverse, middle, center, slideInRight
+
+#  Consideraciones metodológicas
+
+---
+
+# Sofisticación metodológica, métodos multinivel y efectos aleatorios
+  
+#### Regresiones del artículo (efecto fijo)
+
+`\begin{equation}
+Y_{i,s,t}= \beta_0 + \beta_{1}ECh_{i} + {BX}_{i}  +\epsilon_{s,t}
+\end{equation}`
+
+`\begin{equation}
+Y_{i,s,t}= \beta_0 + \delta_{s} + \gamma_{t} + \sum_{r}\alpha_{r}{1}_{tst=r}+ {Bx}_{i} +\epsilon_{s,t}
+\end{equation}`
+
+
+#### Nueva propuesta (efectos aleatorios)
+
+`\begin{equation}
+{Y_{ist}}= \gamma_{000} +\gamma_{100}\text{X}_{ist} + \gamma_{010}\text{Z}_{s} + \gamma_{001}\text{T}_{t} + u_{0j } + u_{1j}*X_{IJ} +r_{ij}
+\end{equation}`
+  
+???
+
+El trabajo metodológicamente tiene dos propuestas. 
+
+  1.  Evaluar la diferencia entre estudiantes con y sin pEChs de un mismo establecimiento
+  2.  Evaluar las diferencias entre escuelas con y sin participación de pEChs
+  
+__Mi propuesta__: Creo que es necesario hacer una evaluación de ambas cosas al mismo tiempo recurriendo a técnicas multinivel y efectos aleatorios. 
+
+* Comprender cuanto varía el efecto de los profesores eCh entre escuelas.
+
+* Comprender cómo las características del contexto dificultan o fomentan el trabajo de los profesores eCh.
+
+* Comprender cómo los profesores Ech influyen en el contexto, incluso en estudiantes a los que no le hacen clases. Esto debería suceder si los profesores tienen una lógica colaborativa y dan consejos a otros profesores, o por lo menos los motivan. 
+
+.center[![:scale 80%](images/torpedo.png)]
+
+.center[![:scale 80%](images/torpedos.png)]
+---
+
+# Otras consideraciones metodológicas
+
+* Evaluar la necesidad de incluir colegios que no son de bajo rendimiento.
+
+
+* Evaluar la necesidad de incluir los años de estallido (2019) y de pandemia.
+
+
+* Evaluar la posibilidad de incluir notas anteriores de los estudiantes.
+
+???
+
+1. Tener colegios con otros resultados: 
+  
+    * Comparar resultados, viendo capacidad de alcanzar a sus pares de mejores establecimientos. 
+
+    * Generar brecha de resultados. 
+    
+2. Tener datos pandemia 
+    * Permite evaluar si los pEChs amortiguaron las consecuencias negativas de la pandemia. 
+
+3. Notas anteriores
+
+    * Uno de los problemas que señala Muñoz es que quizás los jóvenes más interesados y capaces eligen profesores pEChs, lo cual sesga el efecto. Para evaluar esta posibilidad se puede incluir como control las notas anteriores del estudiante. Revisé y esta información está disponible.
+    
+  
+---
+class: inverse, middle, center, slideInRight
+
+#  Propuestas y proyecciones
+
+---
+
+# Nuevas preguntas de investigación:
+
+* Contexto de pandemia
+
+ - ¿Fueron capaces los pEChs de amortiguar el aumento de la brecha educativa? 
+ 
+* Evaluando las características pEChs
+
+  - ¿Qué cualidades de los pEChs están asociadas a mejores resultados de los estudiantes? 
+
+      + Años de educación
+      + Puntaje postulación ECh
+      + Tiempo de especialización en ECh
+      + Profesión
+
+* Evaluando el contexto escolar 
+
+  - ¿Existe alguna cualidad de las escuelas que dificulte el desarrollo de la política? 
+  
+      + Bajo nivel de liderazgo en red en la escuela
+      + Relación del profesor pEChs con los estudiantes
+      
+      
+      
+
+???
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="xaringan_custom/macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
